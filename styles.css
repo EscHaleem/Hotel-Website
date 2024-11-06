@@ -14,25 +14,37 @@ body {
     font-family: montserrat;
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    width: 100%;
     align-items: center;
     background-color: #ffff;
-    padding: 0px 10px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    padding-top: 0px;
 }
 header h1{
-    margin-left: -58%;
     font-size: 32px;
     color: var(--blue);
+    margin-bottom: -10px;
+    margin-left: -5px;
 }
 header h1 span{
     color: var(--peach);
 }
+header img{
+    margin-right: 10px;
+    margin-bottom: -35px;
+    position: absolute;
+    left: 91%;
+}
 .menu-toggle {
-    font-size: 34px;
+    font-size: 36px;
     background: none;
     border: none;
     color: #000;
@@ -41,28 +53,28 @@ header h1 span{
 }
 .nav-menu {
     display: flex;
-    justify-content: flex-start;
+    z-index: 1;
 }
 .head{
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 90px;
+    margin-left: 40px;
+    align-content: center;
+    margin-top: -3px;
 }
 .nav-menu img{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-self: right;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-right: 20px;
+    margin-top: 33px;
+    margin-left: -15px;
 }
 .nav-menu ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-top: 50px;
 }
 .nav-menu li {
     margin-left: 20px;
@@ -70,18 +82,54 @@ header h1 span{
 }
 .nav-menu a {
     text-decoration: none;
+    font-weight: 600;
     color: #000;
 }
 .close-menu {
-    display: none;
-    font-size: 24px;
+    display: inline-flex;
+    font-size: 60px;
     background: none;
     border: none;
     color: #000;
     cursor: pointer;
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: -0.5px;
+    left: -5px;
+}
+#money{
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+#language{
+    position: relative;
+    left: 70px;
+    top: -20px;
+}
+#phone{
+    position: relative;
+    left: 10px;
+    top: 150px;
+}
+#facebook{
+    position: relative;
+    left: 50px;
+    top: 127px;
+}
+#youtube{
+    position: relative;
+    left: 90px;
+    top: 107px;
+}
+#insta{
+    position: relative;
+    left: 130px;
+    top: 87px;
+}
+#telegram{
+    position: relative;
+    left: 170px;
+    top: 67px;
 }
 .menu-toggle {
     display: block;
@@ -116,33 +164,40 @@ header h1 span{
     display: block;
 }
 .bottom{
-    padding: 0px 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
     width: 100%;
     background-image: url(assets/Rectangle\ 5\ \(1\).png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 button{
+    width: auto;
     background-color: var(--white);
     display: inline-flex;
-    border-radius: 15px;
+    border-radius: 30px;
     border: #ffff;
     padding: 10px;
+    gap: 10px;
     align-content: center;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 30px;
+    padding: 0px 20px;
 }
 button p{
         text-align: left;
+        line-height: 19px;
+        font-family: montserrat;
+        /* come back to change this  when you fix the width problem*/
+        padding-right: 50px; 
 }
 button p span{
     color: var(--peach);
 }
 button img{
-    justify-content: center;
-    align-content: center;
+    justify-self: center;
+    align-self: center;
     size: 24px;
 }
-
 .subscribe{
     width: 100%;
 }
