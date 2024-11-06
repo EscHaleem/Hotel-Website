@@ -19,8 +19,8 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: start;
+    display: inline-flex;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
     background-color: #ffff;
@@ -29,52 +29,61 @@ header {
     padding-top: 0px;
 }
 header h1{
+    position: relative;
+    left: 65px;
+    top: 15px;
     font-size: 32px;
     color: var(--blue);
-    margin-bottom: -10px;
-    margin-left: -5px;
 }
 header h1 span{
     color: var(--peach);
 }
 header img{
-    margin-right: 10px;
-    margin-bottom: -35px;
-    position: absolute;
-    left: 91%;
+    position: relative;
+    top: 15px;
+    right: 30px;
 }
 .menu-toggle {
+    position: absolute;
+    top: 16px;
+    left: 10px;
     font-size: 36px;
     background: none;
     border: none;
     color: #000;
     cursor: pointer;
     display: none;
+    text-align: left;
 }
 .nav-menu {
     display: flex;
     z-index: 1;
 }
 .head{
+    position: relative;
+    bottom: 15px;
+    left: -75px;
     display: inline-flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
     padding-left: 10px;
     margin-left: 40px;
-    align-content: center;
     margin-top: -3px;
 }
-.nav-menu img{
-    padding-right: 20px;
-    margin-top: 33px;
-    margin-left: -15px;
+#img{
+    position: relative;
+    top: 15px;
+    right: -93px;
+    
 }
+/* .nav-menu h1{
+    padding-left: 20px;
+} */
 .nav-menu ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .nav-menu li {
     margin-left: 20px;
@@ -97,39 +106,46 @@ header img{
     left: -5px;
 }
 #money{
-    position: relative;
-    left: 20px;
-    top: 0px;
+    position: absolute;
+    left: 25px;
+    top: 400px;
 }
 #language{
     position: relative;
-    left: 70px;
-    top: -20px;
-}
-#phone{
+    left: 60px;
+    top: -15px;
+} 
+/* .socials{
     position: relative;
-    left: 10px;
-    top: 150px;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+#phone{
+    position: absolute;
+    left: 25px;
+    top: 600px;
 }
 #facebook{
     position: relative;
-    left: 50px;
-    top: 127px;
+    left: 25px;
+    top: 160px;
 }
 #youtube{
     position: relative;
-    left: 90px;
-    top: 107px;
+    left: 35px;
+    top: 160px;
 }
 #insta{
     position: relative;
-    left: 130px;
-    top: 87px;
+    left: 45px;
+    top: 160px;
 }
 #telegram{
     position: relative;
-    left: 170px;
-    top: 67px;
+    left: 55px;
+    top: 160px;
 }
 .menu-toggle {
     display: block;
@@ -162,6 +178,10 @@ header img{
 }
 .close-menu {
     display: block;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    z-index: 2;
 }
 .bottom{
     padding: 30px 20px 30px 20px;
@@ -170,39 +190,97 @@ header img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-button{
-    width: auto;
+.search{
+    position: relative;
+    width: 90%;
     background-color: var(--white);
     display: inline-flex;
     border-radius: 30px;
     border: #ffff;
-    padding: 10px;
     gap: 10px;
     align-content: center;
     justify-content: center;
     margin-top: 30px;
-    padding: 0px 20px;
+    padding: 30px 20px;
 }
-button p{
-        text-align: left;
-        line-height: 19px;
-        font-family: montserrat;
-        /* come back to change this  when you fix the width problem*/
-        padding-right: 50px; 
+.search p{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    text-align: left;
+    line-height: 19px;
+    font-weight: 600;
+    font-family: montserrat;
+    /* come back to change this  when you fix the width problem*/
 }
-button p span{
-    color: var(--peach);
+.search p span{
+    opacity: 40%;
 }
-button img{
+#location{
+    position: absolute;
+    left: 15px;
     justify-self: center;
     align-self: center;
     size: 24px;
 }
+#search{
+    position: absolute;
+    right: 15px;
+    justify-self: center;
+    align-self: center;
+    size: 24px;
+}
+.choose{
+    text-align: center;
+    background-color: var(--first-grey);
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.offers{
+    text-align: center;
+    background-color: var(--white);
+}
+#chooseContent{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.reviews{
+    text-align: center;
+    background-color: var(--white);
+    padding-top: 50px;
+}
+.posts{
+    text-align: center;
+    padding-top: 50px;
+}
+.titles{
+    text-align: left;
+    padding-left: 20px;
+    background-color: var(--second-grey);
+}
 .subscribe{
     width: 100%;
+    padding-left: 20px;
+    border-bottom: solid #f3f2f0 1px;
 }
-.subscribe h2{
-    padding-right: 20px;
+.subscribe button{
+    width: 75%;
+    border-radius: 15px;
+    border: solid 1px #000;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+#send{
+    position: relative;
+    left: 47%;
+    background-color: #EE685F;
+    width: fit-content;
 }
 footer{
     margin-bottom: 150px;
