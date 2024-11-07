@@ -24,7 +24,49 @@ for (let i = 0; i < titleArray.length; i++) {
         <h2>${titleArray[i]}</h2>
         <p>${descriptionArray[i]}</p>
         </div>` + fetch;
-}
+};
+
+let roomArray = ["Wilderness Club at Big Ceddar2", "Wilderness Club at Big Ceddar1", "Wilderness Club at Big Ceddar"];
+let photoArray = ["Wilderness Club at Big Ceddar2", "Wilderness Club at Big Ceddar1", "Wilderness Club at Big Ceddar"];
+let rateArray = ["rating", "rating", "rating"];
+let favoriteArray = ["favorite", "favorite", "favorite"];
+let dateArray = ["28 October - 1 November", "28 October - 1 November", "28 October - 1 November"];
+let priceArray = ["$2016", "$2016", "$2016"];
+let stayArray = ["/6 nights", "/6 nights", "/6 nights"];
+let dynamic1 = document.querySelector('.offersContainer');
+for (let j = 0; j < roomArray.length; j++) {
+    let fetch = document.querySelector('.offersContainer').innerHTML;
+    dynamic1.innerHTML = `
+    <div class="offersContent">
+    <img class="room" src="assets/${photoArray[j]}.png" alt="room photo">
+            <div id="imgBox">
+                <img src="assets/${rateArray[j]}.svg" alt="4.8 rate icon">
+                <img src="assets/${favoriteArray[j]}.svg" alt="heart icon">
+            </div>
+            <h3>${roomArray[j]}</h3>
+            <h4>${dateArray[j]}</h4>
+            <div class="price">
+                <h1>${priceArray[j]}</h1>
+                <p>${stayArray[j]}</p>
+            </div>
+        </div>
+    ` + fetch;
+};
+
+let profileArray = ["Piho", "LeBron", "Janik"];
+let reviewArray = ["I quickly found the right tour for me, but I had a few questions about the hotle, I wrote to tech suport and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much, I will coma back again and again", "I quickly found the right tour for me, but I had a few questions about the hotle, I wrote to tech suport and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much, I will coma back again and again", "I quickly found the right tour for me, but I had a few questions about the hotle, I wrote to tech suport and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much, I will coma back again and again"];
+let reviewerArray = ["Kaarel Piho,", "LeBron Durant,", "Jannike Borg,"];
+let jobArray = ["  Chiropodist", "  Flight attendant", "   Publisher"];
+let dynamic2 = document.querySelector('.reviewsContainer');
+for (let k = 0; k < profileArray.length; k++) {
+    let fetch = document.querySelector('.reviewsContainer').innerHTML;
+    dynamic2.innerHTML = `
+    <div class="reviewsContents">
+            <img src="assets/${profileArray[k]}.svg" alt="profile image">
+            <p>${reviewArray[k]}</p>
+            <h3 class="text"><em>${reviewerArray[k]}<span>${jobArray[k]}</span></em></h3>
+        </div>` + fetch;
+}; 
 /* const choose = [
         { name: 'Product 1', price: '$10' },
         { name: 'Product 2', price: '$20' },
