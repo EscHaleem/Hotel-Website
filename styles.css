@@ -15,7 +15,6 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden;
 }
 
 header {
@@ -201,7 +200,6 @@ header img{
     line-height: 19px;
     font-weight: 600;
     font-family: montserrat;
-    /* come back to change this  when you fix the width problem*/
 }
 .search p span{
     opacity: 40%;
@@ -420,18 +418,3 @@ footer p{
 footer p a{
     color: var(--blue);
 }
-/* in case it starts messing up later: you deleted this from div chooseContainer
-<div class="offersContent">
-        /* <img class="room" src="" alt="">
-            <div id="imgBox">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <h3></h3>
-            <h4></h4>
-            <div class="price">
-                <h1></h1>
-                <p></p>
-            </div>
-        </div> */
-/* 

@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-let titleArray =["We are nice","Support", "Simple search process", "Payment Methods"];
+let titleArray =["We are nice","Support", "Simple search process", "Payment methods"];
 let descriptionArray =["Fantasy is over, there will be something really convincing here", "is there something you don't understand? Feel free to call us. Phone number in the footer", "We checked it out, even the kid did it, but it was my mom's friend's son", "We have a lot of them, from cryptocurrencies to barter for potatoes"];
 let dynamic = document.querySelector('.chooseContainer');
 for (let i = 0; i < titleArray.length; i++) {
