@@ -26,8 +26,8 @@ for (let i = 0; i < titleArray.length; i++) {
         </div>` + fetch;
 };
 
-let roomArray = ["Wilderness Club at Big Ceddar2", "Wilderness Club at Big Ceddar1", "Wilderness Club at Big Ceddar"];
-let photoArray = ["Wilderness Club at Big Ceddar2", "Wilderness Club at Big Ceddar1", "Wilderness Club at Big Ceddar"];
+let roomArray = ["Wilderness Club at Big Ceddar", "Wilderness Club at Big Ceddar", "Wilderness Club at Big Ceddar"];
+let photoArray = ["Wilderness Club at", "Wilderness Club", "Wilderness"];
 let rateArray = ["rating", "rating", "rating"];
 let favoriteArray = ["favorite", "favorite", "favorite"];
 let dateArray = ["28 October - 1 November", "28 October - 1 November", "28 October - 1 November"];
@@ -67,6 +67,36 @@ for (let k = 0; k < profileArray.length; k++) {
             <h3 class="text"><em>${reviewerArray[k]}<span>${jobArray[k]}</span></em></h3>
         </div>` + fetch;
 }; 
+let imageArray = ["airplane", "sun glare", "buildings"]
+let date2Array = ["May 20, 2022", "May 22, 2022", "May 23, 2022"]
+let clockArray = ["clock", "clock", "clock"]
+let timeArray = ["15 minutes", "1 minute", "5 minutes"]
+let title2Array = ["Tips for flying on a plane", "Vilnius resorts", "My trip to Athens"]
+let contentArray = ["If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you", "I haven't seen any resorts in Vilnius, but there are wonderful people and pubs", "It would seem that in a city where Theseus, Plato and Epicurus once walked, the very idea of the subway is alien to the cuty, but already..."]
+let dynamic3 = document.querySelector('.postsContainer');
+for (let l = 0; l < imageArray.length; l++) {
+    let fetch = document.querySelector('.postsContainer').innerHTML;
+    dynamic3.innerHTML = `
+    <div class="postsContents">
+            <img src="assets/${imageArray[l]}.png" alt="post image">
+            <h3 class="time">${date2Array[l]}<img src="assets/${clockArray[l]}.svg" alt="clock icon"><span>${timeArray[l]}</span></h3>
+            <h2>${title2Array[l]}</h2>
+            <p>${contentArray[l]}</p>
+        </div>` + fetch;
+}; 
+let sectionArray = ["Title of section", "Title of section", "Title of section"];
+let pageArray = ["Page title", "Page title", "Page title"];
+let dynamic4 = document.querySelector('.titlesContainer');
+for (let m = 0; m < sectionArray.length; m++) {
+    let fetch = document.querySelector('.titlesContainer').innerHTML;
+    dynamic4.innerHTML = `
+    <div class="titlesContents">
+            <h3>${sectionArray[m]}</h3>
+            <p>${pageArray[m]}</p>
+            <p>${pageArray[m]}</p>
+            <p>${pageArray[m]}</p>
+        </div>` + fetch;
+};
 /* const choose = [
         { name: 'Product 1', price: '$10' },
         { name: 'Product 2', price: '$20' },

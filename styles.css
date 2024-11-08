@@ -298,7 +298,8 @@ header img{
     margin-top: 10px;
 }
 .reviews{
-    
+    max-width: 360px;
+    justify-self: center;
 }
 .reviews h2{
     padding-top: 50px;
@@ -318,6 +319,7 @@ header img{
     justify-self: center;
 }
 .reviewsContents{
+    padding-left: 5px;
     min-width: 100%;
     justify-items: center;
     align-items: auto;
@@ -344,35 +346,70 @@ header img{
     margin: 0px 20px;
 }
 .posts{
-    text-align: center;
     padding-top: 50px;
+    justify-self: center;
+    max-width: 360px;
+    margin-bottom: -50px;
+}
+.posts h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.time img{
+    position: relative;
+    left: 55px;
+}
+.time span{
+    color: var(--blue);
+}
+.time p{
+    text-align: left;
+    align-self: flex-start;
+}
+.posts h2{
+    text-align: left;
+}
+.posts p{
+    padding-bottom: 20px;
 }
 .titles{
-    text-align: left;
+    justify-items: left;
     padding-left: 20px;
     background-color: var(--second-grey);
+    padding-bottom: 50px;
+}
+.titlesContents{
+    padding-top: 40px;
 }
 .subscribe{
+    background-color: var(--second-grey);
     width: 100%;
     padding-left: 20px;
-    border-bottom: solid #f3f2f0 1px;
+    border-bottom: solid #9999 1px;
+    padding-top: 0.1px;
+    padding-bottom: 80px;
 }
 .subscribe button{
-    width: 75%;
+    width: 70%;
     border-radius: 15px;
-    border: solid 1px #000;
-    padding: 10px;
+    border: solid 2px var(--peach);
+    padding: 0px;
     margin-top: 0px;
-    margin-bottom: 70px;
+    background-color: var(--white);
 }
-#send{
-    position: relative;
-    left: 47%;
-    background-color: #EE685F;
-    width: fit-content;
+.send{
+    display: flex;
+    justify-self: flex-end;
 }
 footer{
-    margin-bottom: 150px;
+    background-color: var(--second-grey);
+    padding-bottom: 150px;
+    padding-top: 0.1px;
 }
 footer h1{
     color: var(--blue);
