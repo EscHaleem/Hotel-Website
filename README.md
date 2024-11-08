@@ -31,8 +31,9 @@ The hotel website is a responsive website created with the mobile-first approach
 
 ## Live Demo
 
-Check out the live demo of the project: [Live Demo Link](https://hotel-website-x5m7.onrender.com/)
-and the code explanation video: 
+Check out the live demo of the project: [Live Demo Link](https://hotel-website-j8jm.onrender.com)
+and the code explanation video: (https://www.loom.com/share/838b6a8b418e461681201e62a45e8c32?sid=7f8c258d-865d-4d53-a76c-26563051ac74)
+ 
 ## Features
 
 - The website has various sections each of which provides the user with concise information/guide about the apartments to be rented.
@@ -53,7 +54,7 @@ The user is only required to search for the website and if convinced to rent out
 
     ```sh
 
-    git clone https://github.com/EscHaleem/hotel-website.git
+    git clone https://github.com/EscHaleem/Hotel-Website.git
 
     ```
 
