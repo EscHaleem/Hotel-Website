@@ -53,7 +53,7 @@ The user is only required to search for the website and if convinced to rent out
 
     ```sh
 
-    git clone https://github.com/EscHaleem/hotel-website.git
+    git clone https://github.com/EscHaleem/Hotel-Website.git
 
     ```
 
@@ -103,9 +103,11 @@ An email address might be needed so as to get in contact with the clients who ar
 
 ## Screenshots
 
-![Screenshot 1](assets/)
+![Screenshot 1](assets/Screenshot%202024-11-08%20013954.jpg)
 
-![Screenshot 2](assets/)
+![Screenshot 2](assets/Screenshot%202024-11-08%20014045.jpg)
+
+![Screenshot 3](assets/Screenshot%202024-11-08%20014117.jpg)
 
 ## License
 
