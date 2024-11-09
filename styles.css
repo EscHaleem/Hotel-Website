@@ -129,12 +129,11 @@ header img{
     top: -15px;
 } 
 #socials{
-    display: inline-flex;
+    display: flex;
     gap: 15px;
     position: relative;
-    top: 150px;
+    top: 70px;
     left: 30px;
-    margin-right: 20px;
 }
 .menu-toggle {
     display: block;
