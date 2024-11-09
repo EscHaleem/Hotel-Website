@@ -132,6 +132,7 @@ header img{
     position: relative;
     top: 250px;
     left: 30px;
+    padding-bottom: 30px;
 }
 .menu-toggle {
     display: block;
