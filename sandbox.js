@@ -1,3 +1,14 @@
+document.addEventListener("DOMContentLoaded", () =>{
+    const splashScreen = document.getElementById("splash-screen");
+    const mainContent = document.getElementById("main-content");
+
+    setTimeout(() => {
+        splashScreen.style.display = "none";
+        mainContent.style.display = "block";
+    },3000);
+});
+    
+
 document.addEventListener("DOMContentLoaded", function() {
     const menuToggle = document.getElementById('menuToggle');
     const closeMenu = document.getElementById('closeMenu');

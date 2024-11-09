@@ -16,7 +16,17 @@ body {
     padding: 0;
     width: 100%;
 }
-
+#splash-screen{
+    display: flex;
+    color: var(--blue);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+}
+#main-content{
+    display: none;
+}
 header {
     display: inline-flex;
     justify-content: space-between;
@@ -56,7 +66,12 @@ header img{
 }
 .nav-menu {
     display: flex;
-    z-index: 1;
+    z-index: 100;
+    max-width: 100%;
+    margin: 0px;
+    border: 0px;
+    height: 100%;
+    overflow-y: auto;
 } 
 .head{
     position: relative;
@@ -111,30 +126,10 @@ header img{
     left: 60px;
     top: -15px;
 } 
-#phone{
-    position: absolute;
-    left: 25px;
-    top: 600.9px;
-}
-#facebook{
+.socials-1{
     position: relative;
-    left: 25px;
-    top: 160px;
-}
-#youtube{
-    position: relative;
-    left: 35px;
-    top: 160px;
-}
-#insta{
-    position: relative;
-    left: 45px;
-    top: 160px;
-}
-#telegram{
-    position: relative;
-    left: 55px;
-    top: 160px;
+    top: 250px;
+    left: 30px;
 }
 .menu-toggle {
     display: block;
@@ -143,8 +138,9 @@ header img{
     display: none;
     position: absolute;
     top: 0;
-    right: 0;
-    width: 250px;
+    right: -7%;
+    width: 100%;
+    margin-left: 20px;
     height: 100%;
     background-color: var(--white);
     flex-direction: column;
