@@ -128,11 +128,11 @@ header img{
     left: 60px;
     top: -15px;
 } 
-.socials-1{
+.socials{
     position: relative;
     top: 250px;
-    left: 30px;
-    padding-bottom: 30px;
+    left: 10px;
+    padding-bottom: 50px;
 }
 .menu-toggle {
     display: block;
