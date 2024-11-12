@@ -12,9 +12,8 @@
 }
 body {
     font-family: montserrat;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 #splash-screen{
     display: flex;
@@ -28,6 +27,8 @@ body {
 }
 #main-content{
     display: none;
+    margin: 0px;
+    overflow-x: hidden;
 }
 header {
     display: inline-flex;
@@ -52,7 +53,7 @@ header h1 span{
 header img{
     position: relative;
     top: 15px;
-    right: 30px;
+    right: 15px;
 }
 .menu-toggle {
     position: absolute;
