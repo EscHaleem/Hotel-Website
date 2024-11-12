@@ -175,6 +175,7 @@ header img{
 }
 .reviews{
     justify-self: center;
+    max-width: 360px;
 }
 .reviews h2{
     padding-top: 50px;
@@ -244,6 +245,10 @@ header img{
 .time p{
     text-align: left;
     align-self: flex-start;
+}
+.posts{
+    max-width: 370px;
+    overflow-x: auto;
 }
 .posts h2{
     text-align: left;
