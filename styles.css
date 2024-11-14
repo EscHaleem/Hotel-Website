@@ -283,7 +283,7 @@ header img{
     margin-top: 10px;
 }
 .reviews{
-    max-width: min-content;
+    max-width: 360px;
     justify-self: center;
     padding-left: 20px;
 }

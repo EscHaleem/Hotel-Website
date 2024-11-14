@@ -1,5 +1,5 @@
 # Hotel-Website
-The hotel website is a responsive website created with the mobile-first approach. It showcases various apparments that tourists could rent out during their stay at various locations. 
+The hotel website is a responsive website created with the mobile-first approach. It showcases various apartments that tourists can rent out during their stay at various locations. 
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ The hotel website is a responsive website created with the mobile-first approach
 ## Live Demo
 
 Check out the live demo of the project: [Live Demo Link](https://hotel-website-j8jm.onrender.com)
-and the code explanation video: (https://www.loom.com/share/838b6a8b418e461681201e62a45e8c32?sid=7f8c258d-865d-4d53-a76c-26563051ac74)
+and the code explanation video 1: (https://www.loom.com/share/838b6a8b418e461681201e62a45e8c32?sid=7f8c258d-865d-4d53-a76c-26563051ac74), and video 2: https://www.loom.com/share/009e7b1b6cb94bf6b3df48ea67b83711?sid=c98defbf-6ae7-45e5-a23d-11a83190b026
  
 ## Features
 
@@ -104,9 +104,9 @@ An email address might be needed so as to get in contact with the clients who ar
 
 ## Screenshots
 
-![Screenshot 1](assets/)
+![Screenshot 1](assets/Screenshot%202024-11-14%20162107.png)
 
-![Screenshot 2](assets/)
+![Screenshot 2](assets/Screenshot%202024-11-14%20162224.png)
 
 ## License
 

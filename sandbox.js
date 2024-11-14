@@ -36,7 +36,6 @@ for (let i = 0; i < titleArray.length; i++) {
         <p>${descriptionArray[i]}</p>
         </div>` + fetch;
 };
-
 let roomArray = ["Wilderness Club at Big Ceddar", "Wilderness Club at Big Ceddar", "Wilderness Club at Big Ceddar"];
 let photoArray = ["Wilderness Club at", "Wilderness Club", "Wilderness"];
 let rateArray = ["rating", "rating", "rating"];
